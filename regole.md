@@ -1,7 +1,7 @@
 # Regole delle Community di Blalia
 
 
-## 👥 **Cosa sono queste chat di gruppo?**
+## 👥 Cosa sono queste chat di gruppo?
 
 Queste chat sono il luogo di partenza delle nostre Community in Telegram. 
 Il nostro obiettivo è quello di iniziare chiacchierando in leggerezza, confrontandoci di tanto in tanto, e di arrivare a conoscerci meglio incontrandoci dal vivo.
@@ -9,7 +9,7 @@ Il nostro obiettivo è quello di iniziare chiacchierando in leggerezza, confront
 Per vivere al meglio questa esperienza, servono alcune regole che abbiamo scritto nei messaggi seguenti.
 
 
-## 💬 **Come usare le Community**
+## 💬 Come usare le Community
 
 Puoi scegliere le Community che desideri ed entrare anche in tutte se sei capace di seguire e partecipare in modo attivo.
 Ti consigliamo di entrare in una per volta e presentarti subito.
