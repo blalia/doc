@@ -1,9 +1,11 @@
+# Licenza per il contenuto del repository
+
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
-Questa opera è sotto 
+Le opere contenute in questo repository sono sotto 
 [Licenza Creative Commons Attribuzione 4.0 Internazionale][cc-by].
 
-[![CC BY 4.0][cc-by-image]][cc-by]
+<!-- [![CC BY 4.0][cc-by-image]][cc-by] -->
 
 [cc-by]: http://creativecommons.org/licenses/by/4.0/deed.it
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
