@@ -1,4 +1,4 @@
-Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+[![CC BY 4.0][cc-by-shield]][cc-by]
 
 Questa opera è sotto 
 [Licenza Creative Commons Attribuzione 4.0 Internazionale][cc-by].
