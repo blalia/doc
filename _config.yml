@@ -1,9 +1,0 @@
-title: Documenti di Blalia
-description: >- # this means to ignore newlines until "baseurl:"
-  Qui trovi le documentazioni e gli articoli di Blalia.
-baseurl: "" # il sottodominio di GitHub Pages (lascia vuoto se non usi un custom domain)
-url: "https://blalia.github.io" # sostituisci con il tuo nome utente GitHub
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
