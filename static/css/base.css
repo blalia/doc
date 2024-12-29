@@ -922,7 +922,7 @@ body>footer .container {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  padding-inline: 1rem;
+  margin-inline: 1.5rem;
   text-align: center;
 }
 
