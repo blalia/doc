@@ -924,6 +924,7 @@ body>footer .container {
   align-items: center;
   padding-inline: 1.5rem;
   text-align: center;
+  margin-block: auto;
 }
 
 body>footer .logo {
