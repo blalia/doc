@@ -920,10 +920,10 @@ body>footer {
 }
 
 body>footer .container {
-  display: flex;
+  /* display: flex; */
   /* flex-flow: column nowrap; */
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   padding-inline: 1.5rem;
   text-align: center;
   margin-block: auto;
