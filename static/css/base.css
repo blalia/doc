@@ -1,25 +1,11 @@
-/* Comfortaa Variable
-   - Range 300..700 (userai 550 e 600).
-   - Font-display: swap per evitare che il testo rimanga invisibile 
-     finché non sono pronti i font.
-*/
+/* Comfortaa Variable */
 @font-face {
-  font-family: "Comfortaa";
-  src: url("../font/Comfortaa-Variable.woff2") format("woff2-variations");
-  font-weight: 300 700;
-  font-stretch: 100%;
-  font-style: normal;
-  font-display: swap;
+  font-family: "Comfortaa"; src: url("../font/Comfortaa-Variable.woff2") format("woff2-variations"); font-weight: 300 700; font-stretch: 100%; font-style: normal; font-display: swap;
 }
 
 /* Source Sans 3 Variable */
 @font-face {
-  font-family: "Source Sans 3";
-  src: url("../font/SourceSans3-Variable.woff2") format("woff2-variations");
-  font-weight: 200 900;
-  font-stretch: 100%;
-  font-style: normal;
-  font-display: swap;
+  font-family: "Source Sans 3"; src: url("../font/SourceSans3-Variable.woff2") format("woff2-variations"); font-weight: 200 900; font-stretch: 100%; font-style: normal; font-display: swap;
 }
 
 :root {
@@ -77,14 +63,12 @@
   --body-bg-chiaro: #ffffff;
   --body-bg-chiaro-rgb: rgb(255, 255, 255);
 
-  --link-color-rgb: rgb(0, 55, 107);
-  --link-color-inv-rgb: rgb(255, 255, 255);
+--link-color: #174ea6;
+  /* --link-color-rgb: rgb(0, 55, 107);
+  --link-color-inv-rgb: rgb(255, 255, 255); */
   --link-decoration: underline;
-  --link-hover-color: #0a58ca;
-  --link-hover-color-rgb: rgb(10, 88, 202);
-
-  --primary-button-color: rgb(0, 149, 246);
-  --primary-button-color-hover: rgb(24, 119, 242);
+  /* --link-hover-color: #0a58ca; */
+  --link-hover-color: #1a73e8;
 }
 
 *,
