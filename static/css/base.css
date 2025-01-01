@@ -921,15 +921,12 @@ body>footer {
 
 body>footer .container {
   display: flex;
-  flex-flow: column nowrap;
+  /* flex-flow: column nowrap; */
+  justify-content: center;
   align-items: center;
   padding-inline: 1.5rem;
   text-align: center;
   margin-block: auto;
-
-  a {
-    display: inline-block;
-  }
 }
 
 body>footer .logo {
