@@ -1,3 +1,27 @@
+/* Comfortaa Variable
+   - Range 300..700 (userai 550 e 600).
+   - Font-display: swap per evitare che il testo rimanga invisibile 
+     finché non sono pronti i font.
+*/
+@font-face {
+  font-family: "Comfortaa";
+  src: url("../font/Comfortaa-Variable.woff2") format("woff2-variations");
+  font-weight: 300 700;
+  font-stretch: 100%;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Source Sans 3 Variable */
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("../font/SourceSans3-Variable.woff2") format("woff2-variations");
+  font-weight: 200 900;
+  font-stretch: 100%;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --no-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-sans-serif: 'Source Sans 3', 'Open Sans', var(--no-font-sans-serif);
