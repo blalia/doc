@@ -925,18 +925,15 @@ main .sez-testo:first-of-type {
 }
 
 body>footer {
-  border-top: 1px solid var(--color-gray-400);
-  padding-block: 2rem;
+  background-color: var(--color-gray-300);
+  padding-block: 3rem 2rem;
 }
 
 body>footer .container {
-  /* display: flex; */
-  /* flex-flow: column nowrap; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  padding-inline: 1.5rem;
-  text-align: center;
-  margin-block: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  color: var(--body-color);
 }
 
 body>footer .logo {
@@ -952,7 +949,7 @@ body>footer .logo {
 }
 
 body>footer .logo:hover {
-  color: var(--body-color-inv);
+  color: var(--color-gray-800);
 }
 
 body>footer .logo span {
