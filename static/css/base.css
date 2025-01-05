@@ -936,18 +936,6 @@ body>footer .container {
   color: var(--body-color);
 }
 
-body>footer .logo {
-  color: var(--color-gray-600);
-  display: block;
-  width: 100%;
-  max-width: 1320px;
-  text-align: center;
-  text-decoration: none;
-  font: 1rem/1 var(--font-sans-serif-logo);
-  font-size: clamp(1rem, 30vw, 22rem);
-  margin-bottom: 2rem;
-}
-
 body>footer .logo:hover {
   color: var(--color-gray-800);
 }
@@ -965,7 +953,7 @@ body>footer nav {
   gap: 2rem;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid var(--color-gray-700);
+  border-bottom: 1px solid var(--color-gray-400);
 }
 
 body>footer nav .block {
@@ -985,14 +973,18 @@ body>footer nav li+li {
 }
 
 body>footer nav :is(a, a:not(.btn)) {
-  color: var(--link-color-inv);
+  color: var(--link-color);
+}
+
+body>footer nav :is(a:hover, a:hover:not(.btn)) {
+  color: var(--link-hover-color);
 }
 
 body>footer nav select {
   width: 100%;
-  background-color: var(--color-gray-800);
-  color: var(--body-color-inv);
-  border: 1px solid var(--color-gray-500);
+  background-color: var(--color-gray-300);
+  color: var(--body-color);
+  border: 1px solid var(--color-gray-400);
   border-radius: 1rem;
   padding-inline: 0.75rem;
 }
