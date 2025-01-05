@@ -936,6 +936,18 @@ body>footer .container {
   color: var(--body-color);
 }
 
+body>footer .logo {
+  color: var(--color-gray-600);
+  display: block;
+  width: 100%;
+  max-width: 1320px;
+  text-align: center;
+  text-decoration: none;
+  font: 1rem/1 var(--font-sans-serif-logo);
+  font-size: clamp(1rem, 30vw, 22rem);
+  margin-bottom: 2rem;
+}
+
 body>footer .logo:hover {
   color: var(--color-gray-800);
 }
