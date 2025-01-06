@@ -945,7 +945,7 @@ body>footer .logo {
   text-decoration: none;
   font: 1rem/1 var(--font-sans-serif-logo);
   font-size: clamp(1rem, 30vw, 22rem);
-  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 body>footer .logo:hover {
