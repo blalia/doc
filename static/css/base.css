@@ -926,7 +926,7 @@ main .sez-testo:first-of-type {
 
 body>footer {
   background-color: var(--color-gray-300);
-  padding-block: 3rem 2rem;
+  padding-block: 3rem 1rem;
 }
 
 body>footer .container {
