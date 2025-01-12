@@ -944,7 +944,7 @@ body>footer .logo {
   text-align: center;
   text-decoration: none;
   font: 1rem/1 var(--font-sans-serif-logo);
-  font-size: clamp(1rem, 30vw, 22rem);
+  font-size: clamp(1rem, 30vw, 16rem);
   margin-top: 2rem;
 }
 
