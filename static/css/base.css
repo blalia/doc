@@ -925,8 +925,7 @@ main .sez-testo:first-of-type {
 }
 
 main :is(ul,ol) + h3{
-  margin-bottom: 1.75rem;
-  background-color: red;
+  margin-top: 1.75rem;
 }
 
 body>footer {
