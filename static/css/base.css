@@ -1,11 +1,21 @@
 /* Comfortaa Variable */
 @font-face {
-  font-family: "Comfortaa"; src: url("../font/Comfortaa-Variable.woff2") format("woff2-variations"); font-weight: 300 700; font-stretch: 100%; font-style: normal; font-display: swap;
+  font-family: "Comfortaa";
+  src: url("../font/Comfortaa-Variable.woff2") format("woff2-variations");
+  font-weight: 300 700;
+  font-stretch: 100%;
+  font-style: normal;
+  font-display: swap;
 }
 
 /* Source Sans 3 Variable */
 @font-face {
-  font-family: "Source Sans 3"; src: url("../font/SourceSans3-Variable.woff2") format("woff2-variations"); font-weight: 200 900; font-stretch: 100%; font-style: normal; font-display: swap;
+  font-family: "Source Sans 3";
+  src: url("../font/SourceSans3-Variable.woff2") format("woff2-variations");
+  font-weight: 200 900;
+  font-stretch: 100%;
+  font-style: normal;
+  font-display: swap;
 }
 
 :root {
@@ -56,14 +66,14 @@
   --body-bg: var(--color-gray-200);
   --body-color-2: var(--color-gray-700);
   --body-bg-2: #e9ecef;
-  /* --body-bg-2-rgb: 233, 236, 239; */
+  --body-bg-2-rgb: 233, 236, 239;
   --body-color-3: var(--color-gray-600);
   --body-bg-3: #f8f9fa;
-  /* --body-bg-3-rgb: 248, 249, 250; */
+  --body-bg-3-rgb: 248, 249, 250;
   --body-bg-chiaro: #ffffff;
-  /* --body-bg-chiaro-rgb: rgb(255, 255, 255); */
+  --body-bg-chiaro-rgb: rgb(255, 255, 255);
 
---link-color: #174ea6;
+  --link-color: #174ea6;
   /* --link-color-rgb: rgb(0, 55, 107);
   --link-color-inv-rgb: rgb(255, 255, 255); */
   --link-decoration: underline;
@@ -149,6 +159,7 @@ h1,
 }
 
 @media (min-width: 1200px) {
+
   h1,
   .h1 {
     font-size: 2.5rem;
@@ -161,6 +172,7 @@ h2,
 }
 
 @media (min-width: 1200px) {
+
   h2,
   .h2 {
     font-size: 2rem;
@@ -173,6 +185,7 @@ h3,
 }
 
 @media (min-width: 1200px) {
+
   h3,
   .h3 {
     font-size: 1.75rem;
@@ -185,6 +198,7 @@ h4,
 }
 
 @media (min-width: 1200px) {
+
   h4,
   .h4 {
     font-size: 1.5rem;
@@ -582,6 +596,8 @@ body>header .container {
   justify-content: center;
   align-items: center;
   padding: 1rem 0;
+  /* background-color: var(--body-bg-chiaro); */
+  /* min-width: 100%; */
 }
 
 body>header .container .logo {
@@ -642,6 +658,8 @@ main select {
 main>header>.container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  min-height: 73vh;
   padding-block: 8rem;
 }
 
@@ -796,7 +814,7 @@ main .main--nav-page {
   position: sticky;
   top: 0;
   z-index: 1000;
-  margin-bottom: 6rem;
+  margin-bottom: 8rem;
   display: flex;
   justify-content: center;
 }
@@ -838,7 +856,7 @@ main .main--nav-page select {
 @media (max-width: 991px) {
   main .main--nav-page {
     border-top: 0;
-    background-color: var(--body-bg-chiaro);
+    background-color: var(--body-bg-chiaro-rgb);
     border-radius: 0.5rem;
   }
 
@@ -885,7 +903,9 @@ main :is(picture, img) {
   list-style: none;
   margin: 0;
   padding: 0.5rem 0;
-  font-size: 1rem;
+  font-size: .875rem;
+  font-weight: 500;
+  text-transform: uppercase;
   gap: 1rem 0.5rem;
   overflow-x: auto;
 }
@@ -911,7 +931,8 @@ main :is(picture, img) {
 }
 
 .breadcrumb ol li[aria-current="page"] {
-  font-weight: 600;
+  /* font-weight: 600; */
+  font-weight: 700;
 }
 
 main .sez-testo {
@@ -922,10 +943,6 @@ main .sez-testo {
 
 main .sez-testo:first-of-type {
   margin-top: 3rem;
-}
-
-main :is(ul,ol) + h3{
-  margin-top: 1.75rem;
 }
 
 body>footer {
@@ -948,8 +965,8 @@ body>footer .logo {
   text-align: center;
   text-decoration: none;
   font: 1rem/1 var(--font-sans-serif-logo);
-  font-size: clamp(1rem, 30vw, 16rem);
-  margin-top: 2rem;
+  font-size: clamp(1rem, 30vw, 22rem);
+  margin-block: 3rem 0;
 }
 
 body>footer .logo:hover {
